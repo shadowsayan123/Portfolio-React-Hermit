@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=La+Belle+Aurore");
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+
+body {
+  background-color: #252627;
+  color: #e0dfd5;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #e0dfd5;
+  font-size: 4rem;
+  font-family: "La Belle Aurore";
+  font-weight: 100;
+}
+
+p {
+  color: #e0dfd5;
+  font-size: 1.5rem;
+  font-family: "La Belle Aurore";
+  font-weight: 500;
+  margin: auto;
+}

@@ -1,0 +1,33 @@
+.navbar {
+  position: fixed;
+  box-shadow: none;
+  height: 100px;
+  background-color: transparent;
+}
+
+.toolbar {
+  display: flex;
+  width: 100%;
+}
+
+.heading {
+  flex: 1;
+  padding-top: 30px;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  position: relative;
+}
+
+.icons {
+  flex: 1;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  position: relative;
+  right: 50px;
+}
+
+.icons > span {
+  padding: 0 30px 0 0;
+}

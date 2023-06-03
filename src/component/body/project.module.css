@@ -1,0 +1,45 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+}
+
+.dataContainer {
+  display: inline-block;
+  position: relative;
+  top: 40vh;
+  left: 15vw;
+  width: 20%;
+}
+.urlContainer {
+  display: inline-block;
+  position: relative;
+  top: 25vh;
+  left: 55vw;
+  width: 20%;
+}
+
+.urlContainer > a {
+  margin-left: 3rem;
+  text-decoration: none;
+}
+
+.title {
+  font-weight: 100;
+  font-size: 5em;
+  font-family: "Handlee";
+}
+
+.description {
+  font-family: "Handlee";
+}
+
+.techStack {
+  padding: 0;
+  list-style: none;
+}
+
+.techStack > li {
+  display: inline-block;
+  padding: 2rem 2rem 0 0;
+}
