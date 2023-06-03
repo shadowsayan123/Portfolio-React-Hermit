@@ -7,9 +7,10 @@ import VisitLinkIcon from "../../resources/VisitLink.png";
 function Projects() {
   const [urlResponse, setUrlResponse] = useState(null);
   useEffect(() => {
+    const domain = process.env.REACT_APP_DOMAIN;
     axios({
       method: "get",
-      url: "http://localhost:5001/api/products/",
+      url: domain + "api/products/",
       responseType: "json",
     })
       .then((response) => {
